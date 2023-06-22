@@ -1,0 +1,2 @@
+E:\Mes cours\ING5\PFE\Projet PFE\PFE\angularapp\obj\Release\angularapp.esproj.SuggestedBindingRedirects.cache
+E:\Mes cours\ING5\PFE\Projet PFE\PFE\angularapp\obj\Release\angularapp.esproj.CoreCompileInputs.cache

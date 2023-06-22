@@ -1,0 +1,51 @@
+<mat-toolbar>
+  <a routerLink="/social-media">
+    <img src="../../../../assets/images/Logo.png">
+  </a>
+  <ul class="menu">
+    <li>
+      <a routerLink="/social-media">
+        <button mat-button [matMenuTriggerFor]="menu">About us</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/complex-form">
+        <button mat-button [matMenuTriggerFor]="menu">Shop</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/complex-form">
+        <button mat-button [matMenuTriggerFor]="menu">Blog</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/complex-form">
+        <button mat-button>Contact</button>
+      </a>
+    </li>
+  </ul>
+  <a routerLink="/social-media">
+    <mat-icon aria-hidden="false" aria-label="Search icon" fontIcon="search">
+    </mat-icon>
+  </a>
+  <a routerLink="/social-media">
+    <mat-icon aria-hidden="false" aria-label="Account icon" fontIcon="account_circle">
+    </mat-icon>
+  </a>
+  <a routerLink="/social-media">
+    <mat-icon aria-hidden="false" aria-label="Cart icon" fontIcon="shopping_bag">
+    </mat-icon>
+  </a>
+</mat-toolbar>

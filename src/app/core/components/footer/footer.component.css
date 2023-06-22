@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.text-center p-4 {
+    background-color: aqua;
+}
+
+.example-container mat-form-field+mat-form-field {
+    margin-left: 8px;
+}

@@ -13,6 +13,7 @@ export class FooterComponent implements OnInit {
   email = new FormControl('', [Validators.required, Validators.email]);
 
   constructor() { }
+
   ngOnInit(): void {
 
   }
